@@ -1,786 +1,280 @@
 
-# PET-ID 🐾
-## La identidad digital de tu mascota
+# 🐾 PET-ID
+### Your Pet's Digital Identity
 
-PET-ID es un proyecto de emprendimiento tecnológico que busca desarrollar un sistema de identificación física y digital para perros y gatos, facilitando su identificación, la comunicación con sus propietarios y su recuperación en caso de pérdida.
+**PET-ID** is a pet identification and recovery system designed to help owners protect their pets and increase the chances of finding them if they get lost.
 
-El proyecto combina una placa física con código QR, un perfil digital, un sistema de reportes y herramientas de gestión para propietarios de mascotas.
-
----
-
-## 📑 Índice
-
-1. [Problema](#1-problema)
-2. [Solución](#2-solución)
-3. [Funcionamiento](#3-funcionamiento)
-4. [Características principales](#4-características-principales)
-5. [Perfil digital](#5-perfil-digital)
-6. [Modo perdido](#6-modo-perdido)
-7. [Tecnologías propuestas](#7-tecnologías-propuestas)
-8. [Público objetivo](#8-público-objetivo)
-9. [Modelo de negocio](#9-modelo-de-negocio)
-10. [Desarrollo del prototipo](#10-desarrollo-del-prototipo)
-11. [Pruebas y validación](#11-pruebas-y-validación)
-12. [Cronograma](#12-cronograma)
-13. [Plan de crecimiento](#13-plan-de-crecimiento)
-14. [Visión del proyecto](#14-visión-del-proyecto)
+The project combines a physical identification tag with a QR code linked to a digital profile containing essential information about the pet and its owner.
 
 ---
 
-## 1. Problema
+## 📑 Table of Contents
 
-Cuando un perro o gato se pierde, la persona que lo encuentra puede no saber quién es su propietario ni cómo contactarlo.
+- [The Problem](#-the-problem)
+- [Our Solution](#-our-solution)
+- [How It Works](#-how-it-works)
+- [Main Features](#-main-features)
+- [Digital Pet Profile](#-digital-pet-profile)
+- [Lost Pet Mode](#-lost-pet-mode)
+- [Target Audience](#-target-audience)
+- [Business Model](#-business-model)
+- [Prototype Development](#-prototype-development)
+- [Technology](#-technology)
+- [Future Improvements](#-future-improvements)
+- [Project Roadmap](#-project-roadmap)
+- [Project Status](#-project-status)
 
-Los principales problemas son:
+---
 
-- La mascota puede encontrarse lejos de su hogar.
-- La persona que la encuentra puede no utilizar redes sociales.
-- Las publicaciones pueden tardar en llegar al propietario.
-- El animal puede no llevar información de identificación.
-- Los datos personales publicados pueden quedar expuestos.
-- El propietario puede enterarse demasiado tarde.
+## 🚨 The Problem
 
-PET-ID busca reducir estas dificultades mediante un sistema de identificación física conectado a una plataforma digital.
+Every day, pets go missing, and many struggle to return home because they lack reliable identification or their owners cannot be contacted.
 
-## 2. Solución
+Traditional identification tags often contain limited information, such as a phone number, which can become outdated or may not provide enough information to ensure a safe reunion.
 
-PET-ID no pretende ser únicamente una placa con un código QR. Su objetivo es crear un sistema integrado de identificación y recuperación de mascotas.
+PET-ID aims to address these challenges by making pet identification more accessible, practical, and efficient.
 
-El producto estará compuesto por:
+---
 
-- Una placa física personalizada.
-- Un código QR único para cada mascota.
-- Un perfil digital accesible desde un navegador.
-- Un sistema de contacto protegido.
-- Un formulario para reportar mascotas encontradas.
-- Un modo especial para mascotas perdidas.
-- Un registro de reportes y escaneos.
-- Funciones futuras para veterinarias y refugios.
+## 💡 Our Solution
 
-La propuesta de valor es facilitar que una mascota identificada pueda regresar a casa mediante una interacción rápida, sencilla y segura.
+PET-ID offers a smart identification system that connects a physical QR code tag to a digital pet profile.
 
-## 3. Funcionamiento
+By scanning the QR code with a smartphone, anyone who finds a lost pet can access the available information and contact the owner without needing to install an application.
 
-El proceso básico de PET-ID será el siguiente:
+Our goal is to improve pet safety, simplify identification, and support the recovery of lost animals.
 
-1. El propietario registra a su mascota en la plataforma.
-2. El sistema crea un perfil digital único.
-3. Se genera un código QR vinculado al perfil.
-4. El QR se coloca en una placa física.
-5. Si la mascota se pierde, el propietario activa el modo perdido.
-6. Una persona encuentra al animal y escanea el código.
-7. Se abre el perfil digital de la mascota.
-8. La persona puede enviar un reporte con un mensaje y una ubicación opcional.
-9. El propietario recibe una notificación.
-10. Cuando recupera a su mascota, puede desactivar el modo perdido.
+---
 
-El sistema funcionará desde el navegador, por lo que la persona que encuentre a la mascota no necesitará instalar una aplicación.
+## ⚙️ How It Works
 
-## 4. Características principales
+1. **Register the pet:** The owner creates a digital profile with the pet's information.
+2. **Create the identification tag:** A unique QR code is linked to the pet's profile.
+3. **Attach the tag:** The owner places the tag on the pet's collar.
+4. **Scan the QR code:** Anyone who finds the pet can scan the code using a smartphone.
+5. **View the profile:** The finder sees the information the owner has chosen to share.
+6. **Contact the owner:** The finder uses the available contact options to report the pet's location.
+7. **Recover the pet:** The owner and finder coordinate the reunion.
 
-### 4.1. Identificación mediante QR
+---
 
-Cada mascota tendrá un código QR único que abrirá su perfil digital.
+## ✨ Main Features
 
-Ejemplo de enlace:
+- Unique QR code for each registered pet.
+- Digital profile accessible through a web browser.
+- Pet identification information.
+- Owner contact options.
+- Lost pet mode.
+- Lost pet report form.
+- Editable pet information.
+- Privacy controls for personal information.
+- Mobile-friendly interface.
+- Potential integration with NFC technology in future versions.
 
-`https://pet-id.ec/p/MX1842`
+---
 
-El enlace es ilustrativo. El dominio deberá registrarse y configurarse antes de utilizarlo.
+## 🐶 Digital Pet Profile
 
-### 4.2. Tecnología NFC
+Each registered pet will have a digital profile that may include:
 
-Como función opcional, la placa podrá incorporar tecnología NFC.
+- Pet's name.
+- Photograph.
+- Species and breed.
+- Age or date of birth.
+- Color and distinguishing characteristics.
+- Medical information relevant to emergencies.
+- Special care instructions.
+- Owner contact information.
+- Identification and registration details.
 
-Esto permitirá que una persona acerque un teléfono compatible a la placa para abrir el perfil digital sin escanear el QR con la cámara.
+The owner will be able to update the information when necessary.
 
-El QR y el NFC dirigirán al mismo perfil.
+Sensitive personal information should only be displayed with the owner's authorization.
 
-### 4.3. Contacto protegido
+---
 
-PET-ID buscará facilitar la comunicación entre la persona que encuentra a la mascota y su propietario sin publicar directamente su número telefónico, correo electrónico o dirección particular.
+## 🔎 Lost Pet Mode
 
-### 4.4. Reportes de mascotas encontradas
+When a pet goes missing, the owner can activate **Lost Pet Mode**.
 
-La persona que encuentre una mascota podrá enviar:
+This feature is intended to make it easier for someone who finds the animal to identify it and contact its owner.
 
-- Ubicación aproximada o compartida voluntariamente.
-- Fotografía opcional.
-- Mensaje.
-- Fecha y hora del reporte.
-- Información adicional.
+Potential features include:
 
-### 4.5. Historial de escaneos
+- A visible lost-pet alert on the digital profile.
+- The date and general area where the pet was last seen.
+- A form for reporting where the pet was found.
+- Contact options for the owner.
+- Instructions for safely approaching or handling the pet.
 
-El propietario podrá consultar los eventos registrados por el sistema, como la fecha y hora de un escaneo o de un reporte.
+The system should avoid publishing the owner's exact home address or other sensitive information.
 
-La ubicación solo estará disponible cuando se proporcione o se autorice su uso.
+---
 
-**Importante:** el QR y el NFC no incorporan GPS ni permiten rastrear continuamente a la mascota.
+## 🎯 Target Audience
 
-## 5. Perfil digital
+PET-ID is primarily designed for:
 
-Cada mascota tendrá una página individual con información autorizada por su propietario.
+- Dog and cat owners.
+- Families with pets.
+- People who frequently walk their pets outdoors.
+- Veterinary clinics.
+- Pet shops.
+- Animal shelters and rescue organizations.
+- Pet adoption organizations.
 
-Ejemplo:
+The initial target market will focus on pet owners who want an affordable and practical identification system.
 
-### 🐕 MAX
+---
 
-- **Especie:** Perro
-- **Raza:** Golden Retriever
-- **Edad:** 3 años
-- **Sexo:** Macho
-- **Ubicación general:** Quito
-- **Características:** collar azul, mancha blanca en el pecho y temperamento amigable.
+## 💰 Business Model
 
-### Información adicional
+PET-ID could generate revenue through several channels:
 
-- Fotografía de la mascota.
-- Características físicas.
-- Información veterinaria básica.
-- Alergias o medicamentos relevantes, si el propietario decide incluirlos.
-- Contacto protegido.
-- Estado actual de la mascota.
+### 1. QR Identification Tags
+Customers purchase a physical tag linked to their pet's digital profile.
 
-Los datos sensibles no estarán disponibles públicamente por defecto.
+### 2. Personalized Tags
+Optional premium designs, colors, materials, and customized engraving.
 
-## 6. Modo perdido
+### 3. Partnerships
+Collaborations with veterinary clinics, pet shops, shelters, and animal rescue organizations.
 
-El propietario podrá activar el modo perdido desde su cuenta.
+### 4. Optional Premium Services
+Future features could include additional profile customization, multiple-pet management, or enhanced notification options.
 
-Cuando se active:
+The basic identification and recovery functions should remain accessible and easy to use.
 
-- El perfil mostrará un aviso de mascota perdida.
-- Se destacarán las instrucciones para ayudar a encontrarla.
-- Se habilitará el formulario de reporte.
-- Se registrarán los eventos que el sistema pueda recopilar legítimamente.
-- Se enviarán notificaciones al propietario cuando corresponda.
+---
 
-Ejemplo:
+## 🛠️ Prototype Development
 
-> 🚨 MAX ESTÁ PERDIDO
->
-> Si lo encontraste, por favor ayúdalo a regresar a casa.
->
-> Puedes enviar un reporte para que su propietario reciba la información.
+The initial prototype will demonstrate the essential functions of PET-ID.
 
-Cuando la mascota sea recuperada, el propietario podrá marcar el incidente como resuelto.
+### Prototype Components
 
-## 7. Tecnologías propuestas
+- A physical pet tag.
+- A unique QR code.
+- A digital pet profile.
+- A contact method for the owner.
+- A lost-pet reporting form.
+- A simple, mobile-friendly website.
 
-Las siguientes herramientas son opciones para desarrollar el prototipo:
+### Prototype Testing
 
-| Componente | Tecnología propuesta | Función |
-|---|---|---|
-| Diseño visual | Figma | Diseñar las pantallas |
-| Interfaz web | HTML, CSS y JavaScript | Crear el sitio web |
-| Interfaz avanzada | React | Organizar componentes de la aplicación |
-| Base de datos | Supabase | Almacenar información |
-| Autenticación | Supabase Auth | Gestionar las cuentas |
-| Código QR | Biblioteca de generación QR | Crear códigos únicos |
-| Hosting | Vercel | Publicar el sitio |
-| Notificaciones | Servicio de correo electrónico | Avisar de nuevos reportes |
-| Control de versiones | Git y GitHub | Gestionar el código |
+The prototype will be evaluated through practical tests, including:
 
-Estas tecnologías son propuestas de implementación. La selección definitiva dependerá de los conocimientos del equipo, los costos y los requisitos del proyecto.
+1. Scanning the QR code with different smartphones.
+2. Checking whether the digital profile loads correctly.
+3. Verifying that the contact information works.
+4. Testing the lost-pet reporting process.
+5. Evaluating ease of use and accessibility.
+6. Gathering feedback from potential users.
 
-## 8. Público objetivo
+The prototype will be improved based on the results of these tests.
 
-### Público inicial
+---
 
-Propietarios de perros y gatos de zonas urbanas de Quito que buscan una forma práctica de identificar a sus mascotas y facilitar su recuperación si se pierden.
+## 💻 Technology
 
-### Clientes potenciales
+The technologies below are proposed options for developing the project. They may change during implementation.
 
-1. Dueños de perros.
-2. Dueños de gatos.
-3. Refugios de animales.
-4. Clínicas veterinarias.
-5. Tiendas de mascotas.
-6. Organizaciones de rescate animal.
-7. Entrenadores y cuidadores de mascotas.
-
-La primera etapa se enfocará en propietarios individuales para validar el producto antes de ampliar el servicio a organizaciones.
-
-## 9. Modelo de negocio
-
-PET-ID podría utilizar tres líneas comerciales.
-
-### 🟢 PET-ID BASIC
-
-- Placa con QR.
-- Perfil digital.
-- Contacto protegido.
-- Modo perdido.
-- Formulario de reportes.
-
-### 🔵 PET-ID PLUS
-
-- Placa premium.
-- Opción NFC.
-- Múltiples contactos.
-- Personalización.
-- Funciones digitales adicionales.
-
-### 🟣 PET-ID PRO
-
-Dirigido a veterinarias y refugios.
-
-- Administración de múltiples mascotas.
-- Registro de animales.
-- Gestión de perfiles.
-- Herramientas para organizaciones.
-- Funciones administrativas adicionales.
-
-Los precios definitivos deberán establecerse mediante cotizaciones y validación de la disposición de compra de los clientes.
-
-### Fuentes de ingresos
-
-1. Venta de placas físicas.
-2. Placas personalizadas.
-3. Funciones premium opcionales.
-4. Planes para veterinarias y refugios.
-5. Alianzas comerciales con negocios relacionados con mascotas.
-
-## 10. Desarrollo del prototipo
-
-El objetivo del prototipo será demostrar que el sistema puede funcionar de principio a fin.
-
-### 10.1. Parte física
-
-Fabricar entre 5 y 10 placas de prueba.
-
-Materiales posibles:
-
-- Acrílico.
-- Aluminio.
-- Acero inoxidable.
-
-Cada placa deberá contar con un QR diferente y un enlace que abra el perfil correcto.
-
-### 10.2. Parte digital
-
-Desarrollar un sitio web con las siguientes páginas:
-
-1. Página de inicio.
-2. Registro e inicio de sesión.
-3. Registro de mascotas.
-4. Perfil público.
-5. Panel del propietario.
-6. Modo perdido.
-7. Formulario para reportar una mascota encontrada.
-
-### 10.3. Demostración
-
-Durante la presentación del proyecto:
-
-1. Se muestra una placa física.
-2. Se escanea el QR con un teléfono.
-3. Se abre el perfil de una mascota de prueba.
-4. Se activa el modo perdido.
-5. Se envía un reporte desde otro dispositivo.
-6. Se muestra el reporte recibido por el propietario.
-
-Esta demostración permitirá comprobar el funcionamiento real del producto.
-
-## 11. Pruebas y validación
-
-Antes de presentar el prototipo, se realizarán pruebas para comprobar que las funciones principales trabajan correctamente.
-
-| Prueba | Resultado esperado |
+| Component | Possible Technology |
 |---|---|
-| Escanear el QR | Abre el perfil correcto |
-| Registrar una mascota | Guarda sus datos |
-| Activar modo perdido | Muestra el aviso |
-| Enviar un reporte | Registra la información |
-| Enviar una notificación | El propietario recibe el aviso |
-| Denegar ubicación | Permite enviar un reporte sin ubicación |
-| Consultar datos privados | Bloquea accesos no autorizados |
-| Marcar como recuperada | Desactiva el aviso de pérdida |
+| Website structure | HTML |
+| Visual design | CSS |
+| Interactive features | JavaScript |
+| QR code generation | QR code generation library |
+| Database | Firebase or Supabase |
+| Hosting | GitHub Pages or another web hosting service |
+| Digital pet profiles | Web-based interface |
 
-También se realizarán pruebas piloto con propietarios de mascotas para conocer la facilidad de uso, la confianza en el sistema y la intención de compra.
-
-Los resultados deberán documentarse con evidencias reales.
-
-## 12. Cronograma
-
-Se propone un cronograma inicial de ocho semanas.
-
-| Semana | Actividad |
-|---|---|
-| 1 | Investigación y encuestas |
-| 2 | Diseño del producto y requisitos |
-| 3 | Desarrollo inicial del sitio web |
-| 4 | Perfiles, QR y modo perdido |
-| 5 | Fabricación de placas |
-| 6 | Integración y pruebas técnicas |
-| 7 | Prueba piloto y correcciones |
-| 8 | Documentación y exposición final |
-
-El cronograma podrá ajustarse según la complejidad técnica y el tiempo disponible.
-
-## 13. Plan de crecimiento
-
-### Fase 1: Validación local
-
-- Fabricar las primeras placas.
-- Probar el sistema con 20 a 50 mascotas.
-- Recoger comentarios de los propietarios.
-- Corregir errores del prototipo.
-
-### Fase 2: Expansión en Quito
-
-- Establecer alianzas con veterinarias.
-- Contactar tiendas de mascotas.
-- Colaborar con refugios.
-- Ampliar la base de usuarios.
-
-### Fase 3: Expansión provincial
-
-Extender el servicio a otros sectores de Pichincha según la demanda y los resultados del piloto.
-
-### Fase 4: Expansión nacional
-
-Evaluar la distribución de PET-ID en otras ciudades de Ecuador.
-
-### Fase 5: Expansión internacional
-
-Considerar otros mercados latinoamericanos una vez que el sistema sea sostenible y escalable.
-
-La expansión dependerá de la demanda real, los costos, la calidad del servicio y la capacidad operativa.
-
-## 14. Visión del proyecto
-
-PET-ID busca crear una identidad digital única para cada mascota, conectando al animal con su propietario, información importante y una red de recuperación en caso de pérdida.
-
-A largo plazo, la plataforma podría conectar:
-
-- Mascotas.
-- Propietarios.
-- Veterinarias.
-- Refugios.
-- Tiendas de mascotas.
-- Organizaciones de rescate.
-- Comunidad.
-
-La visión es construir una plataforma que facilite la identificación y el cuidado responsable de perros y gatos, utilizando tecnología accesible y priorizando la privacidad de los usuarios.
+The final technology stack will depend on the prototype's requirements, available resources, and development progress.
 
 ---
 
-## 📌 Entregables finales
+## 🚀 Future Improvements
 
-Al terminar el proyecto se espera contar con:
+PET-ID could expand with additional features, including:
 
-- Investigación y validación del problema.
-- Definición del público objetivo.
-- Propuesta de valor.
-- Diseño de marca y placas.
-- Sitio web funcional.
-- Perfiles digitales de mascotas.
-- Códigos QR únicos.
-- Sistema de modo perdido y reportes.
-- Placas físicas de prueba.
-- Informe de pruebas y validación.
-- Presupuesto y modelo de negocio.
-- Demostración funcional del prototipo.
+- NFC-enabled identification tags.
+- Email or messaging notifications.
+- Multiple-pet management.
+- Veterinary and shelter partnerships.
+- Lost-pet alerts for participating communities.
+- Additional languages.
+- Customizable identification tags.
+- Improved reporting and recovery statistics.
 
-## Estado del proyecto
-
-**Etapa actual:** planificación y diseño del proyecto.
-
-**Próximo objetivo:** validar la necesidad del producto y construir un MVP funcional.
-
-> PET-ID: una identidad digital para ayudar a que cada mascota pueda regresar a casa.
-
-# PET-ID 🐾
-## La identidad digital de tu mascota
-
-PET-ID es un proyecto de emprendimiento tecnológico que busca desarrollar un sistema de identificación física y digital para perros y gatos, facilitando su identificación, la comunicación con sus propietarios y su recuperación en caso de pérdida.
-
-El proyecto combina una placa física con código QR, un perfil digital, un sistema de reportes y herramientas de gestión para propietarios de mascotas.
+These features are potential future developments and are not necessarily included in the initial prototype.
 
 ---
 
-## 📑 Índice
+## 🗺️ Project Roadmap
 
-1. [Problema](#1-problema)
-2. [Solución](#2-solución)
-3. [Funcionamiento](#3-funcionamiento)
-4. [Características principales](#4-características-principales)
-5. [Perfil digital](#5-perfil-digital)
-6. [Modo perdido](#6-modo-perdido)
-7. [Tecnologías propuestas](#7-tecnologías-propuestas)
-8. [Público objetivo](#8-público-objetivo)
-9. [Modelo de negocio](#9-modelo-de-negocio)
-10. [Desarrollo del prototipo](#10-desarrollo-del-prototipo)
-11. [Pruebas y validación](#11-pruebas-y-validación)
-12. [Cronograma](#12-cronograma)
-13. [Plan de crecimiento](#13-plan-de-crecimiento)
-14. [Visión del proyecto](#14-visión-del-proyecto)
+### Phase 1 — Research
+- Identify the main problems associated with lost pets.
+- Research existing identification solutions.
+- Define user needs and project requirements.
+
+### Phase 2 — Design
+- Design the PET-ID brand and identification tag.
+- Plan the website structure.
+- Design the digital pet profile.
+
+### Phase 3 — Development
+- Generate QR codes.
+- Build the website prototype.
+- Connect QR codes to digital profiles.
+- Implement the contact and reporting features.
+
+### Phase 4 — Testing
+- Test QR code scanning.
+- Verify website accessibility.
+- Evaluate the user experience.
+- Collect feedback and identify improvements.
+
+### Phase 5 — Presentation
+- Prepare the final prototype.
+- Document the development process.
+- Present the results and conclusions.
+- Evaluate opportunities for future growth.
 
 ---
 
-## 1. Problema
+## 🌎 Our Vision
 
-Cuando un perro o gato se pierde, la persona que lo encuentra puede no saber quién es su propietario ni cómo contactarlo.
+Our vision is to make pet identification simpler, more accessible, and more effective.
 
-Los principales problemas son:
+PET-ID aims to become a practical tool that connects technology, responsible pet ownership, and animal welfare, helping more pets find their way home.
 
-- La mascota puede encontrarse lejos de su hogar.
-- La persona que la encuentra puede no utilizar redes sociales.
-- Las publicaciones pueden tardar en llegar al propietario.
-- El animal puede no llevar información de identificación.
-- Los datos personales publicados pueden quedar expuestos.
-- El propietario puede enterarse demasiado tarde.
-
-PET-ID busca reducir estas dificultades mediante un sistema de identificación física conectado a una plataforma digital.
-
-## 2. Solución
-
-PET-ID no pretende ser únicamente una placa con un código QR. Su objetivo es crear un sistema integrado de identificación y recuperación de mascotas.
-
-El producto estará compuesto por:
-
-- Una placa física personalizada.
-- Un código QR único para cada mascota.
-- Un perfil digital accesible desde un navegador.
-- Un sistema de contacto protegido.
-- Un formulario para reportar mascotas encontradas.
-- Un modo especial para mascotas perdidas.
-- Un registro de reportes y escaneos.
-- Funciones futuras para veterinarias y refugios.
-
-La propuesta de valor es facilitar que una mascota identificada pueda regresar a casa mediante una interacción rápida, sencilla y segura.
-
-## 3. Funcionamiento
-
-El proceso básico de PET-ID será el siguiente:
-
-1. El propietario registra a su mascota en la plataforma.
-2. El sistema crea un perfil digital único.
-3. Se genera un código QR vinculado al perfil.
-4. El QR se coloca en una placa física.
-5. Si la mascota se pierde, el propietario activa el modo perdido.
-6. Una persona encuentra al animal y escanea el código.
-7. Se abre el perfil digital de la mascota.
-8. La persona puede enviar un reporte con un mensaje y una ubicación opcional.
-9. El propietario recibe una notificación.
-10. Cuando recupera a su mascota, puede desactivar el modo perdido.
-
-El sistema funcionará desde el navegador, por lo que la persona que encuentre a la mascota no necesitará instalar una aplicación.
-
-## 4. Características principales
-
-### 4.1. Identificación mediante QR
-
-Cada mascota tendrá un código QR único que abrirá su perfil digital.
-
-Ejemplo de enlace:
-
-`https://pet-id.ec/p/MX1842`
-
-El enlace es ilustrativo. El dominio deberá registrarse y configurarse antes de utilizarlo.
-
-### 4.2. Tecnología NFC
-
-Como función opcional, la placa podrá incorporar tecnología NFC.
-
-Esto permitirá que una persona acerque un teléfono compatible a la placa para abrir el perfil digital sin escanear el QR con la cámara.
-
-El QR y el NFC dirigirán al mismo perfil.
-
-### 4.3. Contacto protegido
-
-PET-ID buscará facilitar la comunicación entre la persona que encuentra a la mascota y su propietario sin publicar directamente su número telefónico, correo electrónico o dirección particular.
-
-### 4.4. Reportes de mascotas encontradas
-
-La persona que encuentre una mascota podrá enviar:
-
-- Ubicación aproximada o compartida voluntariamente.
-- Fotografía opcional.
-- Mensaje.
-- Fecha y hora del reporte.
-- Información adicional.
-
-### 4.5. Historial de escaneos
-
-El propietario podrá consultar los eventos registrados por el sistema, como la fecha y hora de un escaneo o de un reporte.
-
-La ubicación solo estará disponible cuando se proporcione o se autorice su uso.
-
-**Importante:** el QR y el NFC no incorporan GPS ni permiten rastrear continuamente a la mascota.
-
-## 5. Perfil digital
-
-Cada mascota tendrá una página individual con información autorizada por su propietario.
-
-Ejemplo:
-
-### 🐕 MAX
-
-- **Especie:** Perro
-- **Raza:** Golden Retriever
-- **Edad:** 3 años
-- **Sexo:** Macho
-- **Ubicación general:** Quito
-- **Características:** collar azul, mancha blanca en el pecho y temperamento amigable.
-
-### Información adicional
-
-- Fotografía de la mascota.
-- Características físicas.
-- Información veterinaria básica.
-- Alergias o medicamentos relevantes, si el propietario decide incluirlos.
-- Contacto protegido.
-- Estado actual de la mascota.
-
-Los datos sensibles no estarán disponibles públicamente por defecto.
-
-## 6. Modo perdido
-
-El propietario podrá activar el modo perdido desde su cuenta.
-
-Cuando se active:
-
-- El perfil mostrará un aviso de mascota perdida.
-- Se destacarán las instrucciones para ayudar a encontrarla.
-- Se habilitará el formulario de reporte.
-- Se registrarán los eventos que el sistema pueda recopilar legítimamente.
-- Se enviarán notificaciones al propietario cuando corresponda.
-
-Ejemplo:
-
-> 🚨 MAX ESTÁ PERDIDO
->
-> Si lo encontraste, por favor ayúdalo a regresar a casa.
->
-> Puedes enviar un reporte para que su propietario reciba la información.
-
-Cuando la mascota sea recuperada, el propietario podrá marcar el incidente como resuelto.
-
-## 7. Tecnologías propuestas
-
-Las siguientes herramientas son opciones para desarrollar el prototipo:
-
-| Componente | Tecnología propuesta | Función |
-|---|---|---|
-| Diseño visual | Figma | Diseñar las pantallas |
-| Interfaz web | HTML, CSS y JavaScript | Crear el sitio web |
-| Interfaz avanzada | React | Organizar componentes de la aplicación |
-| Base de datos | Supabase | Almacenar información |
-| Autenticación | Supabase Auth | Gestionar las cuentas |
-| Código QR | Biblioteca de generación QR | Crear códigos únicos |
-| Hosting | Vercel | Publicar el sitio |
-| Notificaciones | Servicio de correo electrónico | Avisar de nuevos reportes |
-| Control de versiones | Git y GitHub | Gestionar el código |
-
-Estas tecnologías son propuestas de implementación. La selección definitiva dependerá de los conocimientos del equipo, los costos y los requisitos del proyecto.
-
-## 8. Público objetivo
-
-### Público inicial
-
-Propietarios de perros y gatos de zonas urbanas de Quito que buscan una forma práctica de identificar a sus mascotas y facilitar su recuperación si se pierden.
-
-### Clientes potenciales
-
-1. Dueños de perros.
-2. Dueños de gatos.
-3. Refugios de animales.
-4. Clínicas veterinarias.
-5. Tiendas de mascotas.
-6. Organizaciones de rescate animal.
-7. Entrenadores y cuidadores de mascotas.
-
-La primera etapa se enfocará en propietarios individuales para validar el producto antes de ampliar el servicio a organizaciones.
-
-## 9. Modelo de negocio
-
-PET-ID podría utilizar tres líneas comerciales.
-
-### 🟢 PET-ID BASIC
-
-- Placa con QR.
-- Perfil digital.
-- Contacto protegido.
-- Modo perdido.
-- Formulario de reportes.
-
-### 🔵 PET-ID PLUS
-
-- Placa premium.
-- Opción NFC.
-- Múltiples contactos.
-- Personalización.
-- Funciones digitales adicionales.
-
-### 🟣 PET-ID PRO
-
-Dirigido a veterinarias y refugios.
-
-- Administración de múltiples mascotas.
-- Registro de animales.
-- Gestión de perfiles.
-- Herramientas para organizaciones.
-- Funciones administrativas adicionales.
-
-Los precios definitivos deberán establecerse mediante cotizaciones y validación de la disposición de compra de los clientes.
-
-### Fuentes de ingresos
-
-1. Venta de placas físicas.
-2. Placas personalizadas.
-3. Funciones premium opcionales.
-4. Planes para veterinarias y refugios.
-5. Alianzas comerciales con negocios relacionados con mascotas.
-
-## 10. Desarrollo del prototipo
-
-El objetivo del prototipo será demostrar que el sistema puede funcionar de principio a fin.
-
-### 10.1. Parte física
-
-Fabricar entre 5 y 10 placas de prueba.
-
-Materiales posibles:
-
-- Acrílico.
-- Aluminio.
-- Acero inoxidable.
-
-Cada placa deberá contar con un QR diferente y un enlace que abra el perfil correcto.
-
-### 10.2. Parte digital
-
-Desarrollar un sitio web con las siguientes páginas:
-
-1. Página de inicio.
-2. Registro e inicio de sesión.
-3. Registro de mascotas.
-4. Perfil público.
-5. Panel del propietario.
-6. Modo perdido.
-7. Formulario para reportar una mascota encontrada.
-
-### 10.3. Demostración
-
-Durante la presentación del proyecto:
-
-1. Se muestra una placa física.
-2. Se escanea el QR con un teléfono.
-3. Se abre el perfil de una mascota de prueba.
-4. Se activa el modo perdido.
-5. Se envía un reporte desde otro dispositivo.
-6. Se muestra el reporte recibido por el propietario.
-
-Esta demostración permitirá comprobar el funcionamiento real del producto.
-
-## 11. Pruebas y validación
-
-Antes de presentar el prototipo, se realizarán pruebas para comprobar que las funciones principales trabajan correctamente.
-
-| Prueba | Resultado esperado |
-|---|---|
-| Escanear el QR | Abre el perfil correcto |
-| Registrar una mascota | Guarda sus datos |
-| Activar modo perdido | Muestra el aviso |
-| Enviar un reporte | Registra la información |
-| Enviar una notificación | El propietario recibe el aviso |
-| Denegar ubicación | Permite enviar un reporte sin ubicación |
-| Consultar datos privados | Bloquea accesos no autorizados |
-| Marcar como recuperada | Desactiva el aviso de pérdida |
-
-También se realizarán pruebas piloto con propietarios de mascotas para conocer la facilidad de uso, la confianza en el sistema y la intención de compra.
-
-Los resultados deberán documentarse con evidencias reales.
-
-## 12. Cronograma
-
-Se propone un cronograma inicial de ocho semanas.
-
-| Semana | Actividad |
-|---|---|
-| 1 | Investigación y encuestas |
-| 2 | Diseño del producto y requisitos |
-| 3 | Desarrollo inicial del sitio web |
-| 4 | Perfiles, QR y modo perdido |
-| 5 | Fabricación de placas |
-| 6 | Integración y pruebas técnicas |
-| 7 | Prueba piloto y correcciones |
-| 8 | Documentación y exposición final |
-
-El cronograma podrá ajustarse según la complejidad técnica y el tiempo disponible.
-
-## 13. Plan de crecimiento
-
-### Fase 1: Validación local
-
-- Fabricar las primeras placas.
-- Probar el sistema con 20 a 50 mascotas.
-- Recoger comentarios de los propietarios.
-- Corregir errores del prototipo.
-
-### Fase 2: Expansión en Quito
-
-- Establecer alianzas con veterinarias.
-- Contactar tiendas de mascotas.
-- Colaborar con refugios.
-- Ampliar la base de usuarios.
-
-### Fase 3: Expansión provincial
-
-Extender el servicio a otros sectores de Pichincha según la demanda y los resultados del piloto.
-
-### Fase 4: Expansión nacional
-
-Evaluar la distribución de PET-ID en otras ciudades de Ecuador.
-
-### Fase 5: Expansión internacional
-
-Considerar otros mercados latinoamericanos una vez que el sistema sea sostenible y escalable.
-
-La expansión dependerá de la demanda real, los costos, la calidad del servicio y la capacidad operativa.
-
-## 14. Visión del proyecto
-
-PET-ID busca crear una identidad digital única para cada mascota, conectando al animal con su propietario, información importante y una red de recuperación en caso de pérdida.
-
-A largo plazo, la plataforma podría conectar:
-
-- Mascotas.
-- Propietarios.
-- Veterinarias.
-- Refugios.
-- Tiendas de mascotas.
-- Organizaciones de rescate.
-- Comunidad.
-
-La visión es construir una plataforma que facilite la identificación y el cuidado responsable de perros y gatos, utilizando tecnología accesible y priorizando la privacidad de los usuarios.
+**Every pet deserves the chance to return home.**
 
 ---
 
-## 📌 Entregables finales
+## 📦 Project Deliverables
 
-Al terminar el proyecto se espera contar con:
+The expected project deliverables include:
 
-- Investigación y validación del problema.
-- Definición del público objetivo.
-- Propuesta de valor.
-- Diseño de marca y placas.
-- Sitio web funcional.
-- Perfiles digitales de mascotas.
-- Códigos QR únicos.
-- Sistema de modo perdido y reportes.
-- Placas físicas de prueba.
-- Informe de pruebas y validación.
-- Presupuesto y modelo de negocio.
-- Demostración funcional del prototipo.
+- PET-ID brand identity.
+- Physical QR identification tag.
+- Functional digital pet profile.
+- Website prototype.
+- Lost-pet reporting functionality.
+- Prototype testing results.
+- Project documentation.
+- Final presentation.
 
-## Estado del proyecto
+---
 
-**Etapa actual:** planificación y diseño del proyecto.
+## 📌 Project Status
 
-**Próximo objetivo:** validar la necesidad del producto y construir un MVP funcional.
+**Current stage:** Planning and prototype development.
 
-> PET-ID: una identidad digital para ayudar a que cada mascota pueda regresar a casa.
+PET-ID is a project under development. Features described in this README represent the proposed design and may not yet be implemented.
+
+As development progresses, this documentation will be updated to reflect the actual features and technical implementation.
+
+---
+
+*PET-ID — Your Pet's Digital Identity 🐾*
