@@ -278,3 +278,93 @@ As development progresses, this documentation will be updated to reflect the act
 ---
 
 *PET-ID — Your Pet's Digital Identity 🐾*
+
+# RESEARCH 2: TAM, SAM AND SOM
+
+**Student:** Mathias Rodríguez  
+**Business Idea:** PET-ID — Pet Identification and Recovery System
+
+---
+
+## 1. Introduction
+
+TAM, SAM, and SOM are tools that help entrepreneurs measure the potential market for a business. They make it easier to identify possible customers, choose a target area, and establish realistic business objectives.
+
+For PET-ID, these concepts can help estimate the number of pet owners who could benefit from a digital identification system designed to help recover lost pets.
+
+## 2. What Is TAM?
+
+TAM means **Total Addressable Market**. It represents the total potential market for a product or service if every possible customer could use it.
+
+### Application to PET-ID
+
+The TAM for PET-ID includes pet owners who want to protect their dogs and cats with an identification system. The product could include a QR-code tag connected to a digital profile containing the pet's name, photograph, owner's contact details, and relevant information.
+
+If a pet gets lost, someone who finds it could scan the QR code and contact its owner more easily.
+
+For example, suppose the business identifies 100,000 potential customers across Ecuador. If each customer purchases one identification tag for $8, the theoretical TAM would be $800,000 in one-time sales.
+
+**Calculation:**
+
+100,000 customers × $8 = **$800,000**
+
+*This is an illustrative estimate, not a verified count of pet owners in Ecuador.*
+
+## 3. What Is SAM?
+
+SAM means **Serviceable Available Market**. It is the part of the total market that the business can reach with its current product, location, and resources.
+
+### Application to PET-ID
+
+At the beginning, PET-ID could focus on pet owners in Quito. This would make it easier to promote the product, deliver the identification tags, and establish relationships with veterinary clinics and pet shops.
+
+Suppose the business estimates that 20,000 pet owners in Quito could be potential customers.
+
+If each customer purchases one tag for $8, the SAM would be $160,000 in potential one-time sales.
+
+**Calculation:**
+
+20,000 customers × $8 = **$160,000**
+
+The business could reach these customers through social media, veterinary clinics, pet adoption events, and partnerships with animal shelters.
+
+## 4. What Is SOM?
+
+SOM means **Serviceable Obtainable Market**. It is the part of the serviceable market that a business can realistically capture within a specific period.
+
+### Application to PET-ID
+
+During its first year, PET-ID could aim to sell 500 identification tags. This goal would be more realistic than trying to reach every pet owner in Quito immediately.
+
+The project could begin with a simple website, affordable QR-code tags, and a digital profile for each registered pet. The team could also promote the product through demonstrations and partnerships with local veterinarians.
+
+If 500 customers each purchase one tag for $8, the first-year sales target would be $4,000.
+
+**Calculation:**
+
+500 customers × $8 = **$4,000**
+
+*This figure represents projected sales before production, marketing, delivery, and other business expenses. It is a planning target, not a guarantee of sales.*
+
+## 5. Practical Example
+
+The following figures are hypothetical estimates for the first stage of PET-ID:
+
+| Market Measure | Target Market | Potential Customers | Price per Tag | Estimated Sales |
+|---|---|---:|---:|---:|
+| TAM | Ecuador | 100,000 | $8 | $800,000 |
+| SAM | Quito | 20,000 | $8 | $160,000 |
+| SOM | First-year target | 500 | $8 | $4,000 |
+
+The figures become more reliable when the business verifies the number of potential customers, tests the $8 price, and measures interest through surveys or a pilot project.
+
+## 6. Conclusion
+
+TAM, SAM, and SOM help Mathias Rodríguez evaluate the business potential of PET-ID. TAM represents the broad market of pet owners, SAM focuses on customers the business can reach in Quito, and SOM establishes a realistic sales objective for the first year.
+
+By starting in one city, PET-ID could test its product, improve its website, and build partnerships before expanding to other parts of Ecuador. The project aims to make pet identification easier and improve the chances of reuniting lost animals with their owners.
+
+## 7. Sources
+
+- [GrowthApp — TAM, SAM y SOM: cómo calcular el tamaño de mercado](https://www.growthapp.co/es/tam-sam-som)
+- [Embed — TAM, SAM y SOM: qué son y cómo se calculan](https://embed.es/tam-sam-som-que-son-y-como-se-calculan/)
